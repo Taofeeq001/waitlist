@@ -21,7 +21,7 @@ export default function Home() {
   }
   return (
     <div className="bg-black w-full h-[100vh] flex justify-center">
-      <div className="lg:w-[90%] w-[95%] bg-black relative overflow-hidden">
+      <div className="lg:w-[90%] w-[95%] bg-black relative overflow-hidden container">
         <Image className="w-full absolute z-[1] top-0" src={"/Ellipse.svg"} alt="" width={500} height={400} />
         <div className="flex mt-5 flex-row justify-between items-center ">
           <Image src={"/logo.svg"} className="w-[127.62px] h-[40px]" alt={""} height={50} width={50} />
