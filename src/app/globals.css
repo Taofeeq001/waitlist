@@ -22,38 +22,6 @@
   font-family: "Audiowide";
 }
 
-@keyframes bounce {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-.bounce {
-  animation: bounce 1s;
-}
 
-
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 100%;
-  }
-  60% {
-    width: 100%; /* Pause for 3 seconds */
-  }
-  100% {
-    width: 0;
-  }
-}
-
-.typing-animation {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 9s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
-}
 
 
