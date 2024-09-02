@@ -39,7 +39,7 @@ export default function Home() {
           <div className="text-white flex flex-col mt-3 lg:gap-1 gap-2 items-center">
             <div className="flex flex-col items-center leading-none gap-0">
               <p className="audiowide lg:text-[90px] md:text-[40px] text-[40px] ">FUTURE</p>
-              <p className="audiowide text-[40px]">OF</p>
+              <p className="audiowide lg:text-[40px] text-[30px]">OF</p>
             </div>
             <span>
               <TypeAnimation
