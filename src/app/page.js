@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex flex-col lg:gap-2 gap-3  items-center justify-center lg:mt-[10%] mt-[25%]">
           <div className="bg-gradient-to-tr from-[#DE77541A] tiro text-[14px] font-semibold text-[#EFEFEF] via-[#C93055] to-[#5A0C9B] p-[.8px] w-[168px] h-[40px] rounded-[40px]">
             <div className="bg-black w-full rounded-[40px] flex items-center justify-center  h-full">
-              <p className="text-[16px]  font-semibold tiro bg-gradient-to-r from-[#C93055] via-[#DE7754] to-[#5A0C9B] bg-clip-text text-transparent">Welcome to the</p>
+              <p className="text-[16px]  font-semibold tiro bg-gradient-to-r text-[#C93055] bg-clip-text text-transparent">Welcome to the</p>
             </div>
           </div>
           <div className="text-white flex flex-col mt-3 lg:gap-1 gap-2 items-center">
@@ -76,7 +76,7 @@ export default function Home() {
           <p className="tiro text-[16px] opacity-80 text-center text-white">Sorry. This page is under development. We will let you know once we’re live.</p>
           <div className="bg-gradient-to-tr  mt-[3%] z-[5000] cursor-pointer from-[#DE77541A] tiro text-[14px] font-semibold text-[#EFEFEF] via-[#C93055] to-[#5A0C9B] p-[1px] w-[168px] h-[40px] rounded-[40px]">
             <div onClick={handleOpenModal} className="bg-black cursor-pointer w-full rounded-[40px] flex items-center justify-center  h-full">
-              <p className="text-[18px] tiro bg-gradient-to-r from-[#C93055] via-[#DE7754] to-[#5A0C9B] bg-clip-text text-transparent font-bold">Join our waitlist</p>
+              <p className="text-[18px] tiro text-[#C93055] font-bold">Join our waitlist</p>
             </div>
           </div>
         </div>
