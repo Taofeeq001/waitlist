@@ -22,6 +22,17 @@
   font-family: "Audiowide";
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.bounce {
+  animation: bounce 1s;
+}
 
 
 

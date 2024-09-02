@@ -4,6 +4,7 @@ import { useState } from "react";
 import GeneralModal from "./GeneralModal";
 import Content from "./Content";
 import { TypeAnimation } from "react-type-animation";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   const [openModal, setOpenModal] = useState(false)
@@ -32,8 +33,8 @@ export default function Home() {
         </div>
         <div className="flex flex-col lg:gap-2 gap-3  items-center justify-center lg:mt-[10%] mt-[25%]">
           <div className="bg-gradient-to-tr from-[#DE77541A] tiro text-[14px] font-semibold text-[#EFEFEF] via-[#C93055] to-[#5A0C9B] p-[.8px] w-[168px] h-[40px] rounded-[40px]">
-            <div className="bg-black w-full rounded-[40px] flex items-center justify-center  h-full">
-              <p className="text-[16px]  font-semibold tiro bg-gradient-to-r text-[#C93055] bg-clip-text text-transparent">Welcome to the</p>
+            <div className="bg-black z-[5000] w-full rounded-[40px] flex items-center justify-center  h-full">
+              <p className="text-[16px] font-semibold tiro text-[#C93055]">Welcome to the</p>
             </div>
           </div>
           <div className="text-white flex flex-col mt-3 lg:gap-1 gap-2 items-center">
@@ -86,10 +87,11 @@ export default function Home() {
           <GeneralModal
             handleClose={handleCloseModal}
             close={closeModal}
-            content={<Content />}
+            content={<Content close={closeModal} />}
           />
         )
       }
+      <ToastContainer/>
     </div>
   );
 }
